@@ -3,5 +3,5 @@ services:
   web:
     build: .
     ports:
-      - "59322:80"
+      - "59322:80" # porthash binding
     restart: always
